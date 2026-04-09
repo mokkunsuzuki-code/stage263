@@ -11,3 +11,11 @@ keys/*_private.pem
 keys/*.key
 keys/*.pem
 !keys/*_public.pem
+
+# NEVER commit private keys
+keys/*
+stage256/keys/*
+*.pem
+*.key
+*.p12
+*.pfx
